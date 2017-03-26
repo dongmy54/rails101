@@ -3,8 +3,8 @@
 lock '3.8.0'  # 每个人按自己的默认版本，不一定要是"3.6.1"
 
 
-set :application, 'blog'
-set :repo_url, 'git@github.com:dongmy54/blog.git'  # 这里填的是每个人自己的repo地址
+set :application, 'rails101'
+set :repo_url, 'git@github.com:dongmy54/rails101.git'  # 这里填的是每个人自己的repo地址
 
 
 # Default branch is :master
@@ -14,7 +14,7 @@ set :repo_url, 'git@github.com:dongmy54/blog.git'  # 这里填的是每个人自
 
 # Default deploy_to directory is /var/www/my_app_name
 
-set :deploy_to, '/home/apps/blog'
+set :deploy_to, '/home/apps/rails101'
 
 # Default value for :format is :airbrussh.
 
